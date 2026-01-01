@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Download Our App",
+    "description": "Get the latest version of our app for a seamless experience on your device. Fast, easy, and secure downloads available now.",
+    "image": "https://images.unsplash.com/photo-1661160094555-a798a7df499f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tech": ["React", "Local Storage"],
+    "link": "https://mature-eggs.surge.sh/"
+  },
+  {
+    "title": "Online Learning Platform",
+    "description": "A modern platform for online courses and learning.",
+    "image": "https://media.istockphoto.com/id/2251712446/photo/innovative-education-concept-featuring-glowing-light-bulb-with-digital-learning-icons.jpg?s=2048x2048&w=is&k=20&c=6GxxzgUSnDpyYSyvfr8-VHJMHWcdy4D2jeETkn6in-0=",
+    "tech": ["React", "MongoDB", "Node.js", "Express", "Firebase"],
+    "link": "https://eduhub-cloth.surge.sh/"
+  },
+  {
+    "title": "Online Plant Shop",
+    "description": "Responsive online plant shop with clean UI and mobile-friendly design.",
+    "image": "https://images.unsplash.com/photo-1547051924-8d9e4c0f42f1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tech": ["React", "MongoDB", "Node.js", "Express", "Firebase"],
+    "link": "http://boiling-event.surge.sh/home"
+  }
+]
