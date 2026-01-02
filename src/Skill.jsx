@@ -26,21 +26,21 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="w-full h-[550px] py-20 bg-gradient-to-br from-black via-gray-900 to-black"
+      className="w-full py-16 sm:py-20 bg-gradient-to-br from-black via-gray-900 to-black"
     >
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-14">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white">
             My Skills
           </h2>
-          <p className="mt-3 text-gray-400">
+          <p className="mt-3 text-gray-400 text-sm sm:text-base">
             Technologies I use to build modern web experiences
           </p>
         </div>
 
         <Swiper
           modules={[Autoplay]}
-          spaceBetween={30}
+          spaceBetween={20}
           loop={true}
           autoplay={{
             delay: 1800,
@@ -48,20 +48,19 @@ function Skills() {
           }}
           breakpoints={{
             0: { slidesPerView: 2 },
-            640: { slidesPerView: 3 },
+            480: { slidesPerView: 3 },
             768: { slidesPerView: 4 },
             1024: { slidesPerView: 5 },
+            1280: { slidesPerView: 6 },
           }}
         >
           {skills.map((skill, index) => {
             const Icon = skill.icon;
-
             return (
               <SwiperSlide key={index}>
-                <div className="flex flex-col items-center justify-center p-6 bg-gray-800 rounded-2xl border border-gray-700 hover:border-gray-500 hover:scale-105 transition duration-300">
-                  <Icon className={`text-5xl ${skill.color}`} />
-
-                  <p className="mt-4 text-sm font-medium text-white">
+                <div className="flex flex-col items-center justify-center p-5 sm:p-6 bg-gray-800 rounded-2xl border border-gray-700 hover:border-gray-500 hover:scale-105 hover:shadow-lg transition transform duration-300">
+                  <Icon className={`text-5xl sm:text-6xl ${skill.color}`} />
+                  <p className="mt-3 sm:mt-4 text-sm sm:text-base font-medium text-white">
                     {skill.name}
                   </p>
                 </div>

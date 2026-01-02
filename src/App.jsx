@@ -8,31 +8,22 @@ import Skill from "./Skill";
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
 
-      <section
-        id="about"
-        className="h-screen bg-green-100 flex items-center justify-center"
-      >
-        <About></About>
+      <section id="about" className="w-full bg-black">
+        <About />
       </section>
 
-      <section
-        id="skill"
-        className=" flex items-center justify-center text-center mx-auto"
-      >
-        <Skill></Skill>
+      <section id="skills" className="w-full bg-black">
+        <Skill />
       </section>
 
-      <section
-        id="portfolio"
-        className="h-screen bg-yellow-100 flex items-center justify-center"
-      >
-        <Projects></Projects>
+      <section id="portfolio" className="w-full bg-black">
+        <Projects />
       </section>
 
-      <section id="contact" className=" flex items-center justify-center">
-        <Contact></Contact>
+      <section id="contact" className="w-full bg-black">
+        <Contact />
       </section>
     </>
   );
