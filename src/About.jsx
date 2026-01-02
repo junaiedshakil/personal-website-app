@@ -8,12 +8,7 @@ function About() {
     >
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">
-            About Me
-          </h2>
-          <p className="mt-3 text-gray-400">
-            A brief introduction about who I am and what I do
-          </p>
+          
         </div>
 
         <div className="grid gap-12 md:grid-cols-2 items-center">
