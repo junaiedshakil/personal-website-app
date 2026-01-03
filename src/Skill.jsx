@@ -25,7 +25,7 @@ const skills = [
 function Skills() {
   return (
     <section
-      id="skills"
+      id="skill"
       className="w-full py-16 sm:py-20 bg-gradient-to-br from-black via-gray-900 to-black"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
