@@ -45,15 +45,13 @@ function About() {
           </div>
 
           <div className="flex justify-center">
-            <div className="bg-gray-800 rounded-2xl p-4 sm:p-6 border border-gray-700 w-full max-w-xs sm:max-w-sm">
+            <div className=" rounded-2xl p-4 sm:p-6 border-gray-700 w-full max-w-xs sm:max-w-sm">
               <img
-                src="/photo1.png"
+                src="/mm.png"
                 alt="Junaied Hasan"
                 className="rounded-xl mb-4 w-full object-cover"
               />
-              <p className="text-center text-gray-400 text-xs sm:text-sm">
-                Frontend Developer • React • Next.js
-              </p>
+              
             </div>
           </div>
         </div>
